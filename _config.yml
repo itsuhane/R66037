@@ -1,0 +1,14 @@
+encoding:         utf-8
+lang:             zh-cn
+
+# Information
+title:            title
+url:              https://wzjistc.github.io
+baseurl:          /R66037
+
+assets:
+  styles:         /assets/styles
+  fonts:          /assets/fonts
+  scripts:        /assets/scripts
+  images:         /assets/images
+  
