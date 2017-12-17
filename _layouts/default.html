@@ -27,37 +27,25 @@
       {% endcapture %}
       {% include widgets/banner content=CONTENT image_url="/banner.jpg" mods="fullscreen orient-left content-align-left image-position-right onload-image-fade-in onload-content-fade-right" %}
 
-				<!-- Two -->
-                <!--
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-                            {% capture CONTENT %}
-							<h2>Magna etiam feugiat</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions vertical">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-                            {% endcapture %}
-						</div>
-						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
-						</div>
-					</section>
-                -->
-                {% include widgets/spotlight id="first" content=CONTENT image_url="/spotlight01.jpg" mods="orient-right content-align-left image-position-center onscroll-image-fade-in" %}
-				<!-- Three -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Tempus adipiscing</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions vertical">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/spotlight02.jpg" alt="" />
-						</div>
-					</section>
+      <!-- Two -->
+      {% capture CONTENT %}
+      <h2>Magna etiam feugiat</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+      <ul class="actions vertical">
+        <li><a href="#" class="button">Learn More</a></li>
+      </ul>
+      {% endcapture %}
+      {% include widgets/spotlight id="first" content=CONTENT image_url="/spotlight01.jpg" mods="orient-right content-align-left image-position-center onscroll-image-fade-in" %}
+
+      <!-- Three -->
+      {% capture CONTENT %}
+      <h2>Tempus adipiscing</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+      <ul class="actions vertical">
+        <li><a href="#" class="button">Learn More</a></li>
+      </ul>
+      {% endcapture %}
+      {% include widgets/spotlight content=CONTENT image_url="/spotlight02.jpg" mods="orient-left content-align-left image-position-center onscroll-image-fade-in" %}
 
 				<!-- Four -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
