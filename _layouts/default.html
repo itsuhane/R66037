@@ -10,7 +10,7 @@
 <html>
 {% endif %}
   <head>
-    <title>Story by HTML5 UP</title>
+    <title>{{ site.title }}</title>
     {% include head %}
   </head>
   <body>
@@ -343,12 +343,19 @@
 			</div>
 
 		<!-- Scripts -->
+<!--
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+-->
+    {% include script url="/jquery.min.js" %}
+    {% include script url="/jquery.scrollex.min.js" %}
+    {% include script url="/jquery.scrolly.min.js" %}
+    {% include script url="/skel.min.js" %}
+    {% include script url="/util.js" %}
+    {% include script url="/main.js" %}
 	</body>
 </html>
