@@ -1,0 +1,4 @@
+<section class="banner style{{ include.style | default: 1 }} {{ include.mods | default: fullscreen }}" {%if include.id %}id="{{ include.id }}"{% endif %}>
+  <div class="content">{{ include.content }}</div>
+  <div class="image">{% include image url=include.image_url alt=include.image_alt %}</div>
+</section>
