@@ -1,5 +1,6 @@
 <article>
   <a href="{{ include.url }}" class="image">
+    {% include image url=include.image %}
   </a>
   <div class="caption">
     <h3>{{ include.caption }}</h3>
