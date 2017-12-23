@@ -75,9 +75,12 @@
           {% include widgets/gallery.item image="/gallery/thumbs/09.jpg" caption="Tempus Dolor" description="Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices." %}
           {% include widgets/gallery.item image="/gallery/thumbs/10.jpg" caption="Sed Etiam" description="Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices." %}
           {% include widgets/gallery.item image="/gallery/thumbs/11.jpg" caption="Magna Lorem" description="Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices." %}
-          {% include widgets/gallery.item image="/gallery/thumbs/12.jpg"
-             caption="Ipsum Dolor"
-             description="Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices." %}
+          {%
+            include widgets/gallery.item
+            image="/gallery/thumbs/12.jpg"
+            caption="Ipsum Dolor"
+            description="Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+          %}
         {% endcapture %}
         {% include widgets/gallery content=CONTENT mods="medium lightbox onscroll-fade-in" %}
       </section>
