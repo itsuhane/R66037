@@ -64,12 +64,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
         </div>
         {% capture CONTENT %}
-          {% include widgets/gallery-item
-             caption="Ipsum Dolor"
-             description="Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-             image="/gallery/thumbs/01.jpg"
-             url="{{ site.url }}{{ site.baseurl }}/gallery/fulls/01.jpg"
-          %}
+          {% include widgets/gallery.item %}
 								<article>
 									<a href="images/gallery/fulls/01.jpg" class="image">
 										<img src="images/gallery/thumbs/01.jpg" alt="" />
